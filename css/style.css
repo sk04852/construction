@@ -903,12 +903,21 @@ section {
   color: var(--yellow);
 }
 
+.logo-image{
+  height: 50px!important; 
+  width: 10%!important;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 1.5rem 2rem;
   }
   section {
     padding: 3rem 5%;
+  }
+  .logo-image{
+    height: 50px!important; 
+    width: 10%!important;
   }
 }
 
@@ -943,6 +952,10 @@ section {
     display: block;
     margin: 2rem;
   }
+  .logo-image{
+    height: 50px!important; 
+    width: 10%!important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -972,5 +985,15 @@ section {
   .about .row .content h3 {
     font-size: 2.5rem;
   }
+.patner-mobile{
+  display: block!important;
+}
+.patner-mobile div{
+  width: 100%!important;
+}
+.logo-image{
+  height: 75px!important; 
+  width: 45%!important;
+}
 }
 /*# sourceMappingURL=style.css.map */
